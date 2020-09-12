@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.imagen{
+    width: 100%;
+}
+.texto-encima{
+    position: absolute;
+    top: 2%; 
+    left: 37%;
+    font-size: 350%;
+    color:white;
+}
+.texto-encima2{
+    position: absolute;
+    top: 7%;
+    left: 17%;
+    color: white;
+    font-size: 250%;
+}
+header.encabezado > h1{
+    font-size: 40px;
+}
