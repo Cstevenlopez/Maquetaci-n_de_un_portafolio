@@ -4,7 +4,7 @@ La estrutura para poder insertar la imagen es la siguiente:
 ```
 <img class="imagen" src="img/3.jpg"/>
 ```
-La estructura que utilize en CSS es la siguient:
+La estructura que utilize en CSS es la siguiente:
 ```
 .imagen{
     width: 100%;
@@ -17,7 +17,7 @@ Para poder agregar el eslogan sobre la imagen utilize la siguiente estructura:
 <div class="texto-encima">Mi información digital</div>
 <div class="texto-encima2">Un lugar donde comprato toda mi experiencia</div>
 ```
-La estructura que utilize en CSS es la siguient:
+La estructura que utilize en CSS es la siguiente:
 ```
 .texto-encima{
     position: absolute;
@@ -39,7 +39,7 @@ La estrutura que ocupe para la foto es la siguiente:
 ```
 <img class="imagen-4" src="img/4.jpg"/>
 ```
-La estructura que utilize en CSS es la siguient:
+La estructura que utilize en CSS es la siguiente:
 ```
 .imagen-4{
     position: absolute;
@@ -84,7 +84,7 @@ La estrutura que ocupe para la tabla es la siguiente:
             </tbody>
         </table>
 ```
-La estructura que utilize en CSS es la siguient:
+La estructura que utilize en CSS es la siguiente:
 ```
 .tabla{
     position: absolute;
@@ -117,7 +117,7 @@ La estrutura que ocupe para la lista es la siguiente:
         </thead>
      </ul>>
 ```
-La estructura que utilize en CSS es la siguient:
+La estructura que utilize en CSS es la siguiente:
 ```
 .lista{
     position: absolute;
@@ -139,7 +139,7 @@ La estrutura que ocupe para la lista de vínculos es la siguiente:
             </nav>
         </ul>
 ```
-La estructura que utilize en CSS es la siguient:
+La estructura que utilize en CSS es la siguiente:
 ```
 .vinculo{
     position: absolute;
@@ -153,7 +153,7 @@ La estrutura que ocupe para el pie de pagina es la siguiente:
 ```
 <div class="pie">Todos los derechos reservados @CSTEVEN 2020</div>
 ```
-La estructura que utilize en CSS es la siguient:
+La estructura que utilize en CSS es la siguiente:
 ```
 .pie{
     position: absolute;
