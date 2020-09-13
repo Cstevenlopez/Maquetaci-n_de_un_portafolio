@@ -10,21 +10,22 @@
 }
 .imagen{
     width: 100%;
-    
+    opacity: 0.9;
+    border-radius:150px;
 }
 .texto-encima{
     position: absolute;
     top: 2%; 
     left: 37%;
-    font-size: 350%;
+    font-size: 380%;
     color:white;
 }
 .texto-encima2{
     position: absolute;
-    top: 7%;
-    left: 17%;
+    top: 8%;
+    left: 12%;
     color: white;
-    font-size: 250%;
+    font-size: 300%;
 }
 .texto{
     position: absolute;
