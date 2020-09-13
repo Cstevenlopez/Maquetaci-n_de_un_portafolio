@@ -45,27 +45,35 @@
 }
 .tabla{
     position: absolute;
-    top: 160%; 
+    top: 165%; 
     left: 30%;
     width: 50%;
 }
 .datos-adicionales{
     position: absolute;
-    top: 200%; 
+    top: 210%; 
     left: 40%;
     font-size: 350%;
     color: black;
 }
 .presentacion{
     position: absolute;
-    top: 210%; 
-    left: 42%;
-    width: 15%;
+    top: 220%; 
+    left: 25%;
+    width: 50%;
+
     
 }
-.tabla2{
+.Eventos{
     position: absolute;
-    top: 230%; 
+    top: 277%; 
+    left: 25%;
+    font-size: 105%;
+    color: black;
+}
+.lista{
+    position: absolute;
+    top: 285%; 
     left: 30%;
     width: 50%;
 }
