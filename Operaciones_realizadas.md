@@ -1,23 +1,60 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posicionando elementos</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header class="encabezado" id="inicio">
-        <div class="contenedor">
-            <img class="imagen" src="img/3.jpg"/>
-          <div class="texto-encima">Mi información digital</div>
-          <div class="texto-encima2">Un lugar donde comprato toda mi experiencia</div>
-       </div>
-       <header class="Cuerpo" id="Mi-experiencia"></header>
-            <div class="texto">Mi experiencia</div>
-            <img class="imagen-4" src="img/4.jpg"/>
-        </div>
-        <table class="tabla">
+# Maquetación HTML del documento web 
+## i. Una cabecera con un encabezado, eslogan e imagen
+La estrutura para poder insertar la imagen es la siguiente:
+```
+<img class="imagen" src="img/3.jpg"/>
+```
+La estructura que utilize en CSS es la siguient:
+```
+.imagen{
+    width: 100%;
+    opacity: 0.9;
+    border-radius:150px;
+}
+```
+Para poder agregar el eslogan sobre la imagen utilize la siguiente estructura:
+```
+<div class="texto-encima">Mi información digital</div>
+<div class="texto-encima2">Un lugar donde comprato toda mi experiencia</div>
+```
+La estructura que utilize en CSS es la siguient:
+```
+.texto-encima{
+    position: absolute;
+    top: 2%; 
+    left: 37%;
+    font-size: 380%;
+    color:white;
+}
+.texto-encima2{
+    position: absolute;
+    top: 8%;
+    left: 29%;
+    color: white;
+    font-size: 300%;
+}
+```
+## ii. Un apartado de experiencia con un encabezado, su foto, encabezado y una tabla con su experiencia construida en su vida
+La estrutura que ocupe para la foto es la siguiente:
+```
+<img class="imagen-4" src="img/4.jpg"/>
+```
+La estructura que utilize en CSS es la siguient:
+```
+.imagen-4{
+    position: absolute;
+    top: 125%; 
+    left: 41%;
+    width: 15%;
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    
+}
+```
+La estrutura que ocupe para la tabla es la siguiente:
+```
+<table class="tabla">
             <thead>
                 <tr>
                   <th><p align="left">Lista definida</p></th>
@@ -46,11 +83,20 @@
                 </tr>
             </tbody>
         </table>
-        <header class="datos-adicionales" id="datos-adicionales"></header>
-        <div class="datos-adicionales">Datos adicionales</div>
-        <img class="presentacion" src="img/Presentación.png"/>
-        <div class="Eventos">Comparto detalle de algunos eventos que he asistido y he sido participe a través de los años.</div>
-    <ul class="lista">
+```
+La estructura que utilize en CSS es la siguient:
+```
+.tabla{
+    position: absolute;
+    top: 165%; 
+    left: 25%;
+    width: 50%;
+}
+```
+## iii. Un apartado de eventos con datos adicionales de compartir en eventos,presente una lista
+La estrutura que ocupe para la lista es la siguiente:
+```
+ <ul class="lista">
         <thead>
             <p align="left">Lista definida</p>
             <ul>
@@ -70,10 +116,20 @@
 
         </thead>
      </ul>>
-     <header class="Recomendaciones" id="Recomendaciones"></header>
-     <div class="Recomendaciones">Recomendaciones</div>
-     <p class="Parrafo">Incluir la planificación de proyectos de aprendizaje las herramientas tecnológicas que permita a los estudiantes desarrollar el potencial creativo.<br><br>Gestionar dotación de equipos y materiales para lograr el potencial creativo de los estudiantes.<br><br>Utilizar redes sociales weblogs para promover la interación social y la experimentación del propio aprendizaje</p>
-     <ul class="vinculo">
+```
+La estructura que utilize en CSS es la siguient:
+```
+.lista{
+    position: absolute;
+    top: 285%; 
+    left: 25%;
+    width: 50%;
+}
+```
+## iv. Un apartado de recomendaciones sobre el aprendizaje de tecnologías, aquí incluya una lista de vínculos que correspondan con los apartados, cada vez que de clic sobre uno de ellos, lo traslade al apartado seleccionado
+La estrutura que ocupe para la lista de vínculos es la siguiente:
+```
+<ul class="vinculo">
             <footer id="pie">
             <nav>
                 <ul><a href="#inicio">Inicio</a></ul>
@@ -82,7 +138,31 @@
                 <ul><a href="#Recomendaciones">Recomendaciones</a></ul>
             </nav>
         </ul>
-        <div class="pie">Todos los derechos reservados @CSTEVEN 2020</div>
-    </header>
-
-      
+```
+La estructura que utilize en CSS es la siguient:
+```
+.vinculo{
+    position: absolute;
+    top: 340%; 
+    left: 30%;
+    width: 50%;
+}
+```
+## v. Al final debe incluir un apartado de pie de página
+La estrutura que ocupe para el pie de pagina es la siguiente:
+```
+<div class="pie">Todos los derechos reservados @CSTEVEN 2020</div>
+```
+La estructura que utilize en CSS es la siguient:
+```
+.pie{
+    position: absolute;
+    top: 350%; 
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+    background-color: rgb(11, 11, 11);
+    color: white;
+}
+```
