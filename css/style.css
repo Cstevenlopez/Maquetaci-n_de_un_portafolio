@@ -36,7 +36,7 @@
 .imagen-4{
     position: absolute;
     top: 125%; 
-    left: 42%;
+    left: 41%;
     width: 15%;
     width:300px;
     height:300px;
@@ -46,7 +46,7 @@
 .tabla{
     position: absolute;
     top: 165%; 
-    left: 30%;
+    left: 25%;
     width: 50%;
 }
 .datos-adicionales{
@@ -74,6 +74,37 @@
 .lista{
     position: absolute;
     top: 285%; 
+    left: 25%;
+    width: 50%;
+}
+.Recomendaciones{
+    position: absolute;
+    top: 320%; 
+    left: 40%;
+    font-size: 350%;
+    color: black;
+}
+
+.Parrafo{
+    position: absolute;
+    top: 328%; 
+    left: 25%;
+    font-size: 100%;
+    color: black;
+}
+.vinculo{
+    position: absolute;
+    top: 340%; 
     left: 30%;
     width: 50%;
+}
+.pie{
+    position: absolute;
+    top: 350%; 
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+    background-color: rgb(11, 11, 11);
+    color: white;
 }
