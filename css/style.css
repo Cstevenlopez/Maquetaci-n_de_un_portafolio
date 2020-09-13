@@ -10,6 +10,7 @@
 }
 .imagen{
     width: 100%;
+    
 }
 .texto-encima{
     position: absolute;
@@ -25,6 +26,46 @@
     color: white;
     font-size: 250%;
 }
-header.encabezado > h1{
-    font-size: 40px;
+.texto{
+    position: absolute;
+    top: 115%; 
+    left: 40%;
+    font-size: 350%;
+    color: black;
+}
+.imagen-4{
+    position: absolute;
+    top: 125%; 
+    left: 42%;
+    width: 15%;
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    
+}
+.tabla{
+    position: absolute;
+    top: 160%; 
+    left: 30%;
+    width: 50%;
+}
+.datos-adicionales{
+    position: absolute;
+    top: 200%; 
+    left: 40%;
+    font-size: 350%;
+    color: black;
+}
+.presentacion{
+    position: absolute;
+    top: 210%; 
+    left: 42%;
+    width: 15%;
+    
+}
+.tabla2{
+    position: absolute;
+    top: 230%; 
+    left: 30%;
+    width: 50%;
 }
